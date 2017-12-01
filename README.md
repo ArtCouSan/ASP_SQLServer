@@ -1,7 +1,7 @@
 # Utilização
 
-Linguagem: ASP.Net
-Banco de Dados: SQL Server
+- Linguagem: ASP.Net
+- Banco de Dados: SQL Server
 
 # Descrição
 
