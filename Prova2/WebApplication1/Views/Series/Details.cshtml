@@ -1,0 +1,42 @@
+﻿@model WebApplication1.Models.Serie
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Serie</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Temporada)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Temporada)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Episodio)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Episodio)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Sinopse)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Sinopse)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Titulo }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
