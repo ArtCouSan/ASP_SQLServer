@@ -2,6 +2,14 @@
 
 - Linguagem: ASP.Net
 - Banco de Dados: SQL Server
+- IDE: Visual Studio
+- Framework utilizado: Bootstrap e Entity Framework MVC
+
+# Banco de Dados - Registros
+
+- Series
+- Filmes
+- Animes
 
 # Descrição
 
