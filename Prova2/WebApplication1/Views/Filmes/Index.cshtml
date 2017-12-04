@@ -1,13 +1,13 @@
 ﻿@model IEnumerable<WebApplication1.Models.Filme>
 
 @{
-    ViewBag.Title = "Index";
+    ViewBag.Title = "CRUD de Filmes";
 }
 
-<h2>Index</h2>
+<h2>CRUD filmes</h2>
 
 <p>
-    @Html.ActionLink("Create New", "Create")
+    @Html.ActionLink("Criar novo filme", "Create")
 </p>
 <table class="table">
     <tr>
@@ -35,9 +35,9 @@
             @Html.DisplayFor(modelItem => item.Sinopse)
         </td>
         <td>
-            @Html.ActionLink("Edit", "Edit", new { id=item.Titulo }) |
-            @Html.ActionLink("Details", "Details", new { id=item.Titulo }) |
-            @Html.ActionLink("Delete", "Delete", new { id=item.Titulo })
+            @Html.ActionLink("Editar", "Edit", new { id=item.Titulo }) |
+            @Html.ActionLink("Detalhes", "Details", new { id=item.Titulo }) |
+            @Html.ActionLink("Deletar", "Delete", new { id=item.Titulo })
         </td>
     </tr>
 }
